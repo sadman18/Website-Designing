@@ -1,0 +1,75 @@
+body{
+    margin:0;
+    padding:0;
+    
+}
+.container{
+    position:relative;
+    height:600px;
+    width: 500px;
+    background-color: gray;
+}
+.top{
+    background: #66a4a6;
+    width: 200px;
+    height: 200px;
+    /* padding: 20px;  */
+    border:4px solid black;
+    /*left: 416px; */
+    
+
+    /* relative postioning  */
+    /* display: inline-block ;
+    position: relative;
+    left : 424px;
+    bottom : 110px */
+
+
+    /* Absolute postioning  */
+    position:Absolute;
+    left:206px;
+    top:206px;
+
+}
+.middle {
+    /* margin-left: 248px; */
+    background: blue;
+    width: 200px;
+    height: 200px;
+    border: 4px solid black;
+
+    /* relative postioning  */
+    /* position: relative;
+    left: 208px;
+    bottom: 248px; */
+    /* display: inline-block; */
+
+    /* Absolute postioning  */
+    position:Absolute;
+
+    left:412px;
+    top:412px;
+
+
+
+}
+.bottom {
+    /* margin-left: 456px; */
+    background: red;
+    width: 200px;
+    height: 200px;
+    border: 4px solid black;
+    /* position: relative;
+    bottom: 456px; */
+   
+    /* relative postioning  */
+    /* display: inline-block;
+    position : relative;
+    right :424px; */
+
+    /* Absolute postioning  */
+    position:Absolute;
+    top:0;
+
+
+}
